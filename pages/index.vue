@@ -1,66 +1,37 @@
 <template>
-  <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        children-of-thanos
-      </h1>
-      <h2 class="subtitle">
-        Fantasy Football league on sleeper.app
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
+<div class="container">
+  <div class="row title">
+    <div class="col-12 center">
+      <h1>{{ $store.state.league.leagueInfo.name }}</h1>
     </div>
-  </section>
+  </div>
+</div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
-}
+  created() {
+    // get the league info
+    const leagueInfo = this.$axios.get('https://api.sleeper.app/v1/league/320982275422429184');
+    leagueInfo.then(result => this.$store.commit('league/setLeagueInfo', result.data));
+    // get the league rosters
+    const leagueRosters = this.$axios.get('https://api.sleeper.app/v1/league/320982275422429184/rosters');
+    leagueRosters.then(result => this.$store.commit('league/setLeagueRosters', result.data));
+    // get the league users
+    const leagueUsers = this.$axios.get('https://api.sleeper.app/v1/league/320982275422429184/users');
+    leagueUsers.then(result => this.$store.commit('league/setLeagueUsers', result.data));
+  },
+};
 </script>
 
 <style>
-
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.center {
   text-align: center;
 }
-
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  margin: 1em 0 1em 0;
 }
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+h1 {
+  font-size: 3em;
 }
 </style>
