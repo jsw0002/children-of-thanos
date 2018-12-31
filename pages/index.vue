@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="row fluid">
     <page-header></page-header>
   </div>
 </template>

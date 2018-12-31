@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-fluid">
     <navigation></navigation>
     <nuxt/>
   </div>
@@ -17,4 +17,5 @@ export default {
 
 
 <style>
+
 </style>
