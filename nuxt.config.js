@@ -1,6 +1,7 @@
 const pkg = require('./package')
 
 module.exports = {
+  router: { base: '/children-of-thanos/' },
   mode: 'universal',
 
   /*
