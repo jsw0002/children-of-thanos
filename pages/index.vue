@@ -1,7 +1,7 @@
 <template>
-  <div class="row fluid">
+  <section>
     <page-header></page-header>
-  </div>
+  </section>
 </template>
 
 <script>

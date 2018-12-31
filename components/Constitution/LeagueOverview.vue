@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <sub-section title="">
+    <sub-section>
       Welcome to Children of Thanos.
       This is a 10-team league that was formed in 2018.
       The league will be run on <a target="_blank" href="https://sleeper.app/">sleeper.app</a>.
