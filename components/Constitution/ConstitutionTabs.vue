@@ -6,6 +6,7 @@
           <league-overview></league-overview>
         </b-tab>
         <b-tab title="League Financing">
+          <league-financing></league-financing>
         </b-tab>
         <b-tab title="League Setup & Compeition">
         </b-tab>
@@ -24,12 +25,14 @@
 
 <script>
 import LeagueOverview from '~/components/Constitution/LeagueOverview';
+import LeagueFinancing from '~/components/Constitution/LeagueFinancing';
 
 export default {
   components: {
     LeagueOverview,
-  }
-}
+    LeagueFinancing,
+  },
+};
 </script>
 
 <style>

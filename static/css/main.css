@@ -13,3 +13,11 @@ h1 {
 .navigation {
   margin-bottom: 2em;
 }
+
+.footer {
+  margin-top: 1em;
+}
+
+.italic {
+  font-style: italic;
+}
