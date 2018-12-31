@@ -1,19 +1,16 @@
 <template>
-<div class="container">
-  <page-header></page-header>
-
-  <constitution></constitution>
-</div>
+  <div class="container">
+    <page-header></page-header>
+  </div>
 </template>
 
 <script>
 import PageHeader from '~/components/PageHeader';
-import Constitution from '~/components/Constitution/Constitution';
+
 
 export default {
   components: {
     PageHeader,
-    Constitution,
   },
   created() {
     // get the league info
