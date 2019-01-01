@@ -1,8 +1,8 @@
 <template>
-  <section>
+  <div class="container">
     <title-section>Constitution</title-section>
     <constitution-tabs></constitution-tabs>
-  </section>
+  </div>
 </template>
 
 <script>

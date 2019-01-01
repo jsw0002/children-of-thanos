@@ -21,3 +21,9 @@ h1 {
 .italic {
   font-style: italic;
 }
+
+@media screen and (min-width: 1200px) {
+  .main {
+    min-height: 50em;
+  }
+}

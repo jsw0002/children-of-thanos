@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
+  <section class="main">
     <constitution></constitution>
-  </div>
+  </section>
 </template>
 
 <script>
