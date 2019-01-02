@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <div class="row right-padding">
     <sub-section>
       Rosters in Children of Thanos consist of 14 active players from any NFL team.
       There are no position limits, and owners are free to have as many players from any position as they like.
@@ -85,10 +85,8 @@
       There is not a designated time period to protest trades but if you have complaints contact the commissioner and a discussion will begin.
     </sub-sub-section>
 
-
-
-    <div class="row contents">
-      <div class="col-12">
+    <div class="row">
+      <div class="col">
         <sub-section title="Lineups">
           Starting lineups in Children of Thanos will consist of the following:
         </sub-section>

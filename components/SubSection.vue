@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="col-12">
+    <div class="col">
       <h3 v-if="title">{{ title }}</h3>
 
       <p><slot></slot></p>

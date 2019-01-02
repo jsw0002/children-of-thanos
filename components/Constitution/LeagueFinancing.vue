@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <div class="row right-padding">
     <sub-section>
       The league fee for Children of Thanos will be charged to each team owner, payable to the commissioner on or before the draft.
       Fees will be accepted as cash, check, Chase QuickPay, <a target="_blank" href="https://paypal.me/jsw0002">PayPal</a>, or Venmo.

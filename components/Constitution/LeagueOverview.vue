@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <div class="row right-padding">
     <sub-section>
       Welcome to Children of Thanos.
       This is a 10-team league that was formed in 2018.

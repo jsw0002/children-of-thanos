@@ -28,6 +28,6 @@ h1 {
   }
 }
 
-.contents {
-  display: contents;
+.right-padding {
+  padding-right: .3em;
 }
