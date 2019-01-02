@@ -1,7 +1,9 @@
 const pkg = require('./package')
 
+const base = (process.env.DEVELOPMENT) ? '/' : '/children-of-thanos/';
+
 module.exports = {
-  router: { base: '/children-of-thanos/' },
+  router: { base, },
   generate: {
     routes: ['404'],
     subFolders: false,
