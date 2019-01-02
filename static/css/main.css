@@ -27,3 +27,7 @@ h1 {
     min-height: 50em;
   }
 }
+
+.contents {
+  display: contents;
+}

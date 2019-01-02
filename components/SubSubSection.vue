@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-12">
-      <h3 v-if="title">{{ title }}</h3>
+      <h5 v-if="title">{{ title }}</h5>
 
       <p><slot></slot></p>
     </div>
