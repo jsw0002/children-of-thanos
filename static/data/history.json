@@ -1,0 +1,154 @@
+{
+  "players": [
+    {
+      "name": "CjM954",
+      "regularSeason": {
+        "wins": 12,
+        "loses": 2,
+        "pointsScored": 1895,
+        "pointsAgainst": 1484
+      },
+      "postSeason": {
+        "wins": 2,
+        "loses": 0,
+        "pointsScored": 294,
+        "pointsAgainst": 179
+      }
+    },
+    {
+      "name": "StephenLatham58",
+      "regularSeason": {
+        "wins": 9,
+        "loses": 5,
+        "pointsScored": 1787,
+        "pointsAgainst": 1701
+      },
+      "postSeason": {
+        "wins": 1,
+        "loses": 1,
+        "pointsScored": 227,
+        "pointsAgainst": 218
+      }
+    },
+    {
+      "name": "TheSundayTicket",
+      "regularSeason": {
+        "wins": 8,
+        "loses": 6,
+        "pointsScored": 1772,
+        "pointsAgainst": 1726
+      },
+      "postSeason": {
+        "wins": 1,
+        "loses": 1,
+        "pointsScored": 225,
+        "pointsAgainst": 254
+      }
+    },
+    {
+      "name": "jsw0002",
+      "regularSeason": {
+        "wins": 8,
+        "loses": 6,
+        "pointsScored": 1829,
+        "pointsAgainst": 1744
+      },
+      "postSeason": {
+        "wins": 0,
+        "loses": 2,
+        "pointsScored": 273,
+        "pointsAgainst": 179
+      }
+    },
+    {
+      "name": "Danger_Zone",
+      "regularSeason": {
+        "wins": 6,
+        "loses": 8,
+        "pointsScored": 1813,
+        "pointsAgainst": 1724
+      },
+      "postSeason": {
+        "wins": 1,
+        "loses": 1,
+        "pointsScored": 266,
+        "pointsAgainst": 207
+      }
+    },
+    {
+      "name": "KOST",
+      "regularSeason": {
+        "wins": 6,
+        "loses": 8,
+        "pointsScored": 1642,
+        "pointsAgainst": 1706
+      },
+      "postSeason": {
+        "wins": 1,
+        "loses": 1,
+        "pointsScored": 195,
+        "pointsAgainst": 208
+      }
+    },
+    {
+      "name": "NFLIrish20",
+      "regularSeason": {
+        "wins": 5,
+        "loses": 9,
+        "pointsScored": 1405,
+        "pointsAgainst": 1706
+      },
+      "postSeason": {
+        "wins": 2,
+        "loses": 0,
+        "pointsScored": 203,
+        "pointsAgainst": 131
+      }
+    },
+    {
+      "name": "ncmather",
+      "regularSeason": {
+        "wins": 6,
+        "loses": 8,
+        "pointsScored": 1650,
+        "pointsAgainst": 1598
+      },
+      "postSeason": {
+        "wins": 1,
+        "loses": 2,
+        "pointsScored": 297,
+        "pointsAgainst": 335
+      }
+    },
+    {
+      "name": "EliMiN8oR",
+      "regularSeason": {
+        "wins": 8,
+        "loses": 6,
+        "pointsScored": 1729,
+        "pointsAgainst": 1663
+      },
+      "postSeason": {
+        "wins": 1,
+        "loses": 2,
+        "pointsScored": 267,
+        "pointsAgainst": 245
+      }
+    },
+    {
+      "name": "Sacksonville",
+      "regularSeason": {
+        "wins": 2,
+        "loses": 12,
+        "pointsScored": 1297,
+        "pointsAgainst": 1767
+      },
+      "postSeason": {
+        "wins": 0,
+        "loses": 2,
+        "pointsScored": 154,
+        "pointsAgainst": 189
+      }
+    }
+  ]
+}

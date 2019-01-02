@@ -31,3 +31,17 @@ h1 {
 .right-padding {
   padding-right: .3em;
 }
+
+.leaderboard {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+.leaderboard-title {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
