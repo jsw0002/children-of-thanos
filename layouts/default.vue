@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <navigation></navigation>
-    <nuxt/>
+    <nuxt keep-alive/>
     <page-footer></page-footer>
   </div>
 </template>

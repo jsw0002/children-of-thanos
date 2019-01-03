@@ -1,196 +1,63 @@
 <template>
   <div class="row">
-    <h3 class="leaderboard-title">Regular Season</h3>
-    <b-card-group class="leaderboard" tag="Regular Season">
-      <b-card no-body header="User">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            {{ user.name }}
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
+    <b-form-group class="buttons" label="What would you like to see?">
+      <b-form-radio-group id="history" v-model="selected" name="radioSubComponent" buttons button-variant="outline-primary">
+        <b-form-radio value="allTime">All Time Standings</b-form-radio>
+        <b-form-radio value="regular">Regular Season Standings</b-form-radio>
+        <b-form-radio value="post">Post Season Standings</b-form-radio>
+      </b-form-radio-group>
+    </b-form-group>
 
-      <b-card no-body header="Wins">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="primary" pill>
-              {{ user.regularSeason.wins }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
+    <b-table v-if="selected === 'regular'" class="table" striped :items="history.players" :fields="regularFields">
+      <template slot="index" slot-scope="data">{{data.index +1}}</template>
+    </b-table>
 
-      <b-card no-body header="Loses">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="danger" pill>
-              {{ user.regularSeason.loses }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
+    <b-table v-if="selected === 'post'" class="table" striped :items="history.players" :fields="postFields">
+      <template slot="index" slot-scope="data">{{data.index +1}}</template>
+    </b-table>
 
-      <b-card no-body header="Points Scored">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="success" pill>
-              {{ user.regularSeason.pointsScored }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-
-      <b-card no-body header="Points Against">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="warning" pill>
-              {{ user.regularSeason.pointsAgainst }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-    </b-card-group>
-
-    <h3 class="leaderboard-title">Post Season</h3>
-    <b-card-group class="leaderboard" tag="Post Season">
-      <b-card no-body header="User">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            {{ user.name }}
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-
-      <b-card no-body header="Wins">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="primary" pill>
-              {{ user.postSeason.wins }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-
-      <b-card no-body header="Loses">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="danger" pill>
-              {{ user.postSeason.loses }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-
-      <b-card no-body header="Points Scored">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="success" pill>
-              {{ user.postSeason.pointsScored }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-
-      <b-card no-body header="Points Against">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="warning" pill>
-              {{ user.postSeason.pointsAgainst }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-    </b-card-group>
-
-    <h3 class="leaderboard-title">All Time</h3>
-    <b-card-group class="leaderboard" tag="All Time">
-      <b-card no-body header="User">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            {{ user.name }}
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-
-      <b-card no-body header="Wins">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="primary" pill>
-              {{ user.postSeason.wins + user.regularSeason.wins }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-
-      <b-card no-body header="Loses">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="danger" pill>
-              {{ user.postSeason.loses + user.regularSeason.loses }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-
-      <b-card no-body header="Points Scored">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="success" pill>
-              {{ user.postSeason.pointsScored + user.regularSeason.pointsScored }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-
-      <b-card no-body header="Points Against">
-        <b-list-group>
-          <b-list-group-item
-            v-for="(user, index) in history.players"
-            :key="index">
-            <b-badge variant="warning" pill>
-              {{ user.postSeason.pointsAgainst + user.regularSeason.pointsAgainst }}
-            </b-badge>
-          </b-list-group-item>
-        </b-list-group>
-      </b-card>
-    </b-card-group>
+    <b-table v-if="selected === 'allTime'" class="table" striped :items="history.players" :fields="allFields">
+      <template slot="index" slot-scope="data">{{data.index +1}}</template>
+      <template slot="wins" slot-scope="data">{{data.item.regularWins + data.item.postWins}}</template>
+      <template slot="loses" slot-scope="data">{{data.item.regularLoses + data.item.postLoses}}</template>
+      <template slot="pointsScored" slot-scope="data">{{data.item.regularPS + data.item.postPS}}</template>
+      <template slot="pointsAgainst" slot-scope="data">{{data.item.regularPA + data.item.postPA}}</template>
+    </b-table>
   </div>
 </template>
 
 <script>
-import history from '../static/data/history.json'
+import history from '../static/data/history.json';
+
 export default {
   data() {
     return {
       history,
+      selected: 'allTime',
+      regularFields: {
+        index: {label: 'Regular Season Standings'},
+        name: {label: 'Username'},
+        regularWins: {label: 'Wins', sortable: true},
+        regularLoses: {label: 'Loses', sortable:true},
+        regularPS: {label: 'Points Scored', sortable:true},
+        regularPA: {label: 'Points Against', sortable:true},
+      },
+      postFields: {
+        index: {label: 'Post Season Standings'},
+        name: {label: 'Username'},
+        postWins: {label: 'Wins', sortable: true},
+        postLoses: {label: 'Loses', sortable:true},
+        postPS: {label: 'Points Scored', sortable:true},
+        postPA: {label: 'Points Against', sortable:true},
+      },
+      allFields: {
+        index: {label: 'All Time Standings'},
+        name: {label: 'Username'},
+        wins: {label: 'Wins'},
+        loses: {label: 'Loses'},
+        pointsScored: {label: 'Points Scored'},
+        pointsAgainst: {label: 'Points Against'},
+      }
     };
   },
 };

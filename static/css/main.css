@@ -45,3 +45,18 @@ h1 {
   padding-bottom: 1em;
 }
 
+.card img {
+  border-radius: 50%;
+  width: 10em;
+  margin: 0 auto;
+  padding: 10px 0 0 10px;
+}
+.table {
+  width: 90%;
+  margin: 0 auto;
+}
+.buttons {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
