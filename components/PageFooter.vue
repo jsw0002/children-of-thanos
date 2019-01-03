@@ -1,7 +1,7 @@
 <template>
   <section class="footer">
-    <b-navbar class="bottom" toggleable="md" type="dark" variant="primary">
-      <div class="container">
+    <b-navbar toggleable="md" type="dark" variant="primary" fixed="bottom">
+      <div class="container bottom">
         <span class="navbar-text">
           &copy; {{ new Date().getFullYear() }}
         </span>
@@ -16,5 +16,4 @@ export default {
 </script>
 
 <style>
-
 </style>

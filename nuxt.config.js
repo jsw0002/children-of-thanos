@@ -1,7 +1,9 @@
 const pkg = require('./package')
 
 module.exports = {
-  router: { base: '/children-of-thanos/' },
+  router: {
+    base: '/children-of-thanos/',
+  },
   generate: {
     routes: ['404'],
     subFolders: false,
@@ -64,7 +66,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-
+      if (!ctx.isDev) config.output.publicPath = './children-of-thanos/'
     }
   }
 }
