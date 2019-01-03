@@ -1,7 +1,7 @@
 const pkg = require('./package')
 
 module.exports = {
-  router: { base: './children-of-thanos/' },
+  router: { base: '/children-of-thanos/' },
   generate: {
     routes: ['404'],
     subFolders: false,
