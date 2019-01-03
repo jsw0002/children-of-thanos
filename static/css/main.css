@@ -60,3 +60,8 @@ h1 {
   margin: 0 auto;
   padding-bottom: 1em;
 }
+
+.bottom {
+  right: 0;
+  bottom: 0;
+}

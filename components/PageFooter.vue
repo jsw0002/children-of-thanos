@@ -16,8 +16,5 @@ export default {
 </script>
 
 <style>
-  .bottom {
-    right: 0;
-    bottom: 0;
-  }
+
 </style>
