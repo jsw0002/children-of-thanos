@@ -1,9 +1,9 @@
 <template>
   <section class="footer">
-    <b-navbar toggleable="md" type="dark" variant="primary">
+    <b-navbar class="bottom" toggleable="md" type="dark" variant="primary">
       <div class="container">
         <span class="navbar-text">
-          Navbar text with an inline element
+          &copy; {{ new Date().getFullYear() }}
         </span>
       </div>
     </b-navbar>
@@ -12,10 +12,12 @@
 
 <script>
 export default {
-
 }
 </script>
 
 <style>
-
+  .bottom {
+    right: 0;
+    bottom: 0;
+  }
 </style>
