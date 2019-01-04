@@ -1,12 +1,12 @@
 <template>
   <section class="footer">
-    <b-navbar toggleable="md" type="dark" variant="primary" fixed="bottom">
-      <div class="container bottom">
+    <b-container class="footer-copyright">
+      <b-row align-v="end">
         <span class="navbar-text">
           &copy; {{ new Date().getFullYear() }}
         </span>
-      </div>
-    </b-navbar>
+      </b-row>
+    </b-container>
   </section>
 </template>
 
