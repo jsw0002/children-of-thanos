@@ -9,7 +9,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "get-league-info": "node middleware/index.js",
+    "create-history": "node middleware/createHistory.js"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
@@ -19,6 +21,7 @@
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
+    "axios": "^0.18.0",
     "nodemon": "^1.11.0",
     "push-dir": "^0.4.1"
   }
