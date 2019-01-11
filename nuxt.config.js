@@ -48,8 +48,7 @@ module.exports = {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios',
-    'bootstrap-vue/nuxt'
+    'nuxt-buefy'
   ],
   /*
   ** Axios module configuration
@@ -66,7 +65,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      if (!ctx.isDev) config.output.publicPath = './children-of-thanos/'
+
     }
   }
 }
