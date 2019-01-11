@@ -16,7 +16,7 @@ leagueRosters.rosters.forEach(roster => {
         regularPS: roster.settings.fpts,
         regularPA: roster.settings.fpts_against,
         postWins: 0,
-        postLosses: 0,
+        postLoses: 0,
         postPS: 0,
         postPA: 0,
       });

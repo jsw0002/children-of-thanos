@@ -8,15 +8,15 @@
       </b-form-radio-group>
     </b-form-group>
 
-    <b-table v-if="selected === 'regular'" class="table" striped :items="history.players" :fields="regularFields">
+    <b-table v-if="selected === 'regular'" class="table" striped :items="history" :fields="regularFields">
       <template slot="index" slot-scope="data">{{data.index +1}}</template>
     </b-table>
 
-    <b-table v-if="selected === 'post'" class="table" striped :items="history.players" :fields="postFields">
+    <b-table v-if="selected === 'post'" class="table" striped :items="history" :fields="postFields">
       <template slot="index" slot-scope="data">{{data.index +1}}</template>
     </b-table>
 
-    <b-table v-if="selected === 'allTime'" class="table" striped :items="history.players" :fields="allFields">
+    <b-table v-if="selected === 'allTime'" class="table" striped :items="history" :fields="allFields">
       <template slot="index" slot-scope="data">{{data.index +1}}</template>
       <template slot="wins" slot-scope="data">{{data.item.regularWins + data.item.postWins}}</template>
       <template slot="loses" slot-scope="data">{{data.item.regularLoses + data.item.postLoses}}</template>
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import history from '../static/data/history.json';
+import history from '../static/data/history-2018.json';
 
 export default {
   data() {
@@ -36,7 +36,7 @@ export default {
       selected: 'allTime',
       regularFields: {
         index: {label: 'Regular Season Standings'},
-        name: {label: 'Username'},
+        displayName: {label: 'Username'},
         regularWins: {label: 'Wins', sortable: true},
         regularLoses: {label: 'Loses', sortable:true},
         regularPS: {label: 'Points Scored', sortable:true},
@@ -44,7 +44,7 @@ export default {
       },
       postFields: {
         index: {label: 'Post Season Standings'},
-        name: {label: 'Username'},
+        displayName: {label: 'Username'},
         postWins: {label: 'Wins', sortable: true},
         postLoses: {label: 'Loses', sortable:true},
         postPS: {label: 'Points Scored', sortable:true},
@@ -52,7 +52,7 @@ export default {
       },
       allFields: {
         index: {label: 'All Time Standings'},
-        name: {label: 'Username'},
+        displayName: {label: 'Username'},
         wins: {label: 'Wins'},
         loses: {label: 'Loses'},
         pointsScored: {label: 'Points Scored'},

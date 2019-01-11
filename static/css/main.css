@@ -22,12 +22,6 @@ h1 {
   font-style: italic;
 }
 
-@media screen and (min-width: 1200px) {
-  .main {
-    min-height: 50em;
-  }
-}
-
 .right-padding {
   padding-right: .3em;
 }
@@ -61,4 +55,17 @@ h1 {
   text-align: center;
   margin: 0 auto;
   padding-bottom: 1em;
+}
+
+.league-avatar {
+  height: 240px;
+  width: 240px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.league-avatar img {
+  width: 100%;
 }

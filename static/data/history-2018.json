@@ -7,7 +7,7 @@
     "regularPS": 1829,
     "regularPA": 1744,
     "postWins": 0,
-    "postLosses": 2,
+    "postLoses": 2,
     "postPS": 178,
     "postPA": 273
   },
@@ -19,7 +19,7 @@
     "regularPS": 1813,
     "regularPA": 1724,
     "postWins": 2,
-    "postLosses": 0,
+    "postLoses": 0,
     "postPS": 266,
     "postPA": 207
   },
@@ -31,7 +31,7 @@
     "regularPS": 1297,
     "regularPA": 1767,
     "postWins": 0,
-    "postLosses": 2,
+    "postLoses": 2,
     "postPS": 154,
     "postPA": 255
   },
@@ -43,7 +43,7 @@
     "regularPS": 1642,
     "regularPA": 1706,
     "postWins": 1,
-    "postLosses": 1,
+    "postLoses": 1,
     "postPS": 195,
     "postPA": 208
   },
@@ -55,7 +55,7 @@
     "regularPS": 1729,
     "regularPA": 1663,
     "postWins": 1,
-    "postLosses": 2,
+    "postLoses": 2,
     "postPS": 267,
     "postPA": 245
   },
@@ -67,7 +67,7 @@
     "regularPS": 1895,
     "regularPA": 1484,
     "postWins": 2,
-    "postLosses": 0,
+    "postLoses": 0,
     "postPS": 294,
     "postPA": 179
   },
@@ -79,7 +79,7 @@
     "regularPS": 1787,
     "regularPA": 1701,
     "postWins": 1,
-    "postLosses": 1,
+    "postLoses": 1,
     "postPS": 227,
     "postPA": 218
   },
@@ -91,7 +91,7 @@
     "regularPS": 1650,
     "regularPA": 1598,
     "postWins": 1,
-    "postLosses": 2,
+    "postLoses": 2,
     "postPS": 297,
     "postPA": 335
   },
@@ -103,7 +103,7 @@
     "regularPS": 1772,
     "regularPA": 1726,
     "postWins": 1,
-    "postLosses": 1,
+    "postLoses": 1,
     "postPS": 225,
     "postPA": 254
   },
@@ -115,7 +115,7 @@
     "regularPS": 1405,
     "regularPA": 1706,
     "postWins": 2,
-    "postLosses": 0,
+    "postLoses": 0,
     "postPS": 203,
     "postPA": 131
   }

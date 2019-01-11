@@ -10,8 +10,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "get-league-info": "node middleware/index.js",
-    "create-history": "node middleware/createHistory.js"
+    "get-league-info": "node build-history/index.js",
+    "create-history": "node build-history/createHistory.js"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
