@@ -9,15 +9,17 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "get-league-info": "node sleeperApi/index.js",
+    "create-history": "node sleeperApi/createHistory.js"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.0.0",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
-    "push-dir": "^0.4.1"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "axios": "^0.18.0",
+    "nodemon": "^1.11.0",
+    "push-dir": "^0.4.1"
   }
 }
