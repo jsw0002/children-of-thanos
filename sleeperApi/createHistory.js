@@ -1,5 +1,4 @@
-const fs = require('fs');
-const path = require('path');
+const createFile = require('./helper/createFile');
 const leagueRosters = require('../static/data/leagueRosters.json');
 const leagueUsers = require('../static/data/leagueUsers.json');
 
@@ -24,4 +23,4 @@ leagueRosters.rosters.forEach(roster => {
   })
 });
 
-fs.writeFileSync(path.join(__dirname, '../static/data/history-2018.json'), JSON.stringify(history));
+createFile('history-2018.json', history);

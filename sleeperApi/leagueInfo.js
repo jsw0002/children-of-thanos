@@ -1,9 +1,8 @@
-const fs = require('fs');
-const path = require('path');
-const apiCall = require('./apiCall');
+const axios = require('axios');
+const createFile = require('./helper/createFile');
 
 module.exports = () => {
-  apiCall('https://api.sleeper.app/v1/league/320982275422429184')
+  axios.get('https://api.sleeper.app/v1/league/320982275422429184')
     .then(response => {
       const saveLeagueInfo = {
         scoringSettings: response.data.scoring_settings,
@@ -13,6 +12,6 @@ module.exports = () => {
         avatar: response.data.avatar,
       }
 
-      fs.writeFileSync(path.join(__dirname, '../static/data/leagueInfo.json'), JSON.stringify(saveLeagueInfo));
+      createFile('leagueInfo.json', saveLeagueInfo);
     });
 };

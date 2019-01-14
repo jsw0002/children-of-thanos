@@ -10,8 +10,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "get-league-info": "node build-history/index.js",
-    "create-history": "node build-history/createHistory.js"
+    "get-league-info": "node sleeperApi/index.js",
+    "create-history": "node sleeperApi/createHistory.js"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
