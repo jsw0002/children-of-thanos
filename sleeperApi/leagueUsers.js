@@ -11,4 +11,3 @@ module.exports = () => {
       createFile('leagueUsers.json', saveLeagueUsers);
     });
 };
-
