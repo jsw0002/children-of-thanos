@@ -1,5 +1,5 @@
 <template>
-  <div class="row right-padding">
+  <div class="row league-financing">
     <sub-section>
       The league fee for Children of Thanos will be charged to each team owner, payable to the commissioner on or before the draft.
       Fees will be accepted as cash, check, Chase QuickPay, <a target="_blank" href="https://paypal.me/jsw0002">PayPal</a>, or Venmo.
@@ -40,7 +40,7 @@
     </sub-section>
 
     <sub-section>
-      <span class="italic">Troy's Rule:</span> As punishment for finishing last in the league the loser will have to take a picture of themselves holding the toilet bowl and make it their team picture for the next season.
+      <span>Troy's Rule:</span> As punishment for finishing last in the league the loser will have to take a picture of themselves holding the toilet bowl and make it their team picture for the next season.
       Also their team name for that year will have to incorporate the word "loser".
     </sub-section>
   </div>

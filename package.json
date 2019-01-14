@@ -14,9 +14,12 @@
     "create-history": "node sleeperApi/createHistory.js"
   },
   "dependencies": {
+    "bootstrap": "^4.2.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
     "cross-env": "^5.2.0",
+    "node-sass": "^4.11.0",
     "nuxt": "^2.0.0",
-    "nuxt-buefy": "^0.2.1"
+    "sass-loader": "^7.1.0"
   },
   "devDependencies": {
     "axios": "^0.18.0",

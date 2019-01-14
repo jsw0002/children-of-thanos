@@ -1,7 +1,7 @@
 <template>
   <section class="footer">
     <b-container>
-      <b-row align-v="end">
+      <b-row>
         <span class="navbar-text">
           &copy; {{ new Date().getFullYear() }}
         </span>

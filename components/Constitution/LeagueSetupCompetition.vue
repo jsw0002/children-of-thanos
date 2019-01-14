@@ -1,5 +1,5 @@
 <template>
-  <div class="row right-padding">
+  <div class="row league-setup-competition">
     <sub-section>
       The Children of Thanos will consist of 10 different teams, broken into two conferences of five teams each.
       The schedule will be randomly generated, with each team playing every other team at least once in head-to-head match-up.

@@ -1,5 +1,5 @@
 <template>
-  <section class="main">
+  <section class="constitution">
     <constitution></constitution>
   </section>
 </template>

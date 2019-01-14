@@ -1,5 +1,5 @@
 <template>
-  <div class="row right-padding">
+  <div class="row offseason-activities">
     <sub-section title="Offseason Activities">
       Owners are strongly encouraged to send their current and preferred contact information to the commissioner.
       Please make sure to include your name, phone number and email address if we need to reach you during the off season.

@@ -1,5 +1,5 @@
 <template>
-  <div class="row right-padding">
+  <div class="row amendments">
     <sub-section title="Amendments">
     </sub-section>
 

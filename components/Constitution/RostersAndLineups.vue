@@ -1,5 +1,5 @@
 <template>
-  <div class="row right-padding">
+  <div class="row rosters-lineups">
     <sub-section>
       Rosters in Children of Thanos consist of 14 active players from any NFL team.
       There are no position limits, and owners are free to have as many players from any position as they like.

@@ -1,0 +1,71 @@
+// error page
+.error-404 {
+  margin-top: 100px;
+
+  h3,
+  img {
+    padding-top: 25px;
+  }
+
+  .row {
+    text-align: center;
+  }
+}
+
+// main page
+.main {
+  .header {
+    h1 {
+      text-align: center;
+      margin-top: .5em;
+    }
+
+    img {
+      height: 22em;
+      width: 22em;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+  }
+
+  .leaderboard {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em 0;
+
+    .title {
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 1em;
+    }
+  }
+}
+
+// constitution page
+.constitution {
+  h1 {
+    margin-top: .5em;
+  }
+
+  .league-overview,
+  .league-financing,
+  .league-setup-competition,
+  .rosters-lineups,
+  .scoring-system,
+  .offseason-activities,
+  .amendments {
+    padding: 0 .3em;
+  }
+
+  .league-financing span {
+    font-style: italic;
+  }
+}
+
+// general components
+.footer {
+  margin-top: 1em;
+}

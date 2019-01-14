@@ -1,5 +1,5 @@
 <template>
-  <div class="row right-padding">
+  <div class="row scoring-system">
     <sub-section title="Scoring System">
       Scoring in Children of Thanos will be computed to two decimal places.
       This will allow points to be awarded or deducted for every positive or negative yard and will dramatically reduce the chance of a tie game.

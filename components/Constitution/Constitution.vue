@@ -1,17 +1,15 @@
 <template>
-  <div class="container">
-    <title-section>Constitution</title-section>
+  <section class="container constitution">
+    <h1>Constitution</h1>
     <constitution-tabs></constitution-tabs>
-  </div>
+  </section>
 </template>
 
 <script>
-import TitleSection from '~/components/TitleSection';
 import ConstitutionTabs from '~/components/Constitution/ConstitutionTabs';
 
 export default {
   components: {
-    TitleSection,
     ConstitutionTabs,
   },
 };

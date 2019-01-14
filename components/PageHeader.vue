@@ -1,10 +1,7 @@
 <template>
-  <div class="row title">
+  <div class="row header">
     <div class="col-12">
-      <h1 class="center">{{ leagueName }}</h1>
-    </div>
-
-    <div class="league-avatar">
+      <h1>{{ leagueName }}</h1>
       <img :src="url" />
     </div>
   </div>

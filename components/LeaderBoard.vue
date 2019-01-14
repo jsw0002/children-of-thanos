@@ -1,6 +1,6 @@
 <template>
-  <div class="row">
-    <b-form-group class="buttons" label="What would you like to see?">
+  <div class="row leaderboard">
+    <b-form-group class="buttons title" label="What would you like to see?">
       <b-form-radio-group id="history" v-model="selected" name="radioSubComponent" buttons button-variant="outline-primary">
         <b-form-radio value="allTime">All Time Standings</b-form-radio>
         <b-form-radio value="regular">Regular Season Standings</b-form-radio>
@@ -8,15 +8,15 @@
       </b-form-radio-group>
     </b-form-group>
 
-    <b-table v-if="selected === 'regular'" class="table" striped :items="history" :fields="regularFields">
+    <b-table v-if="selected === 'regular'" class="table" striped outline :items="history" :fields="regularFields">
       <template slot="index" slot-scope="data">{{data.index +1}}</template>
     </b-table>
 
-    <b-table v-if="selected === 'post'" class="table" striped :items="history" :fields="postFields">
+    <b-table v-if="selected === 'post'" class="table" striped outline :items="history" :fields="postFields">
       <template slot="index" slot-scope="data">{{data.index +1}}</template>
     </b-table>
 
-    <b-table v-if="selected === 'allTime'" class="table" striped :items="history" :fields="allFields">
+    <b-table v-if="selected === 'allTime'" class="table" striped outline :items="history" :fields="allFields">
       <template slot="index" slot-scope="data">{{data.index +1}}</template>
       <template slot="wins" slot-scope="data">{{data.item.regularWins + data.item.postWins}}</template>
       <template slot="loses" slot-scope="data">{{data.item.regularLoses + data.item.postLoses}}</template>
