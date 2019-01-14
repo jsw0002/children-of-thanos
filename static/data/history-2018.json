@@ -7,9 +7,9 @@
     "regularPS": 1829,
     "regularPA": 1744,
     "postWins": 0,
-    "postLoses": 0,
-    "postPS": 0,
-    "postPA": 0
+    "postLoses": 2,
+    "postPS": 178,
+    "postPA": 273
   },
   {
     "displayName": "Danger_Zone",
@@ -18,10 +18,10 @@
     "regularLoses": 8,
     "regularPS": 1813,
     "regularPA": 1724,
-    "postWins": 0,
+    "postWins": 2,
     "postLoses": 0,
-    "postPS": 0,
-    "postPA": 0
+    "postPS": 266,
+    "postPA": 207
   },
   {
     "displayName": "Sacksonville",
@@ -31,9 +31,9 @@
     "regularPS": 1297,
     "regularPA": 1767,
     "postWins": 0,
-    "postLoses": 0,
-    "postPS": 0,
-    "postPA": 0
+    "postLoses": 2,
+    "postPS": 154,
+    "postPA": 255
   },
   {
     "displayName": "KOST",
@@ -42,10 +42,10 @@
     "regularLoses": 8,
     "regularPS": 1642,
     "regularPA": 1706,
-    "postWins": 0,
-    "postLoses": 0,
-    "postPS": 0,
-    "postPA": 0
+    "postWins": 1,
+    "postLoses": 1,
+    "postPS": 195,
+    "postPA": 208
   },
   {
     "displayName": "EliMiN8oR",
@@ -54,10 +54,10 @@
     "regularLoses": 6,
     "regularPS": 1729,
     "regularPA": 1663,
-    "postWins": 0,
-    "postLoses": 0,
-    "postPS": 0,
-    "postPA": 0
+    "postWins": 1,
+    "postLoses": 2,
+    "postPS": 267,
+    "postPA": 245
   },
   {
     "displayName": "CjM954",
@@ -66,10 +66,10 @@
     "regularLoses": 2,
     "regularPS": 1895,
     "regularPA": 1484,
-    "postWins": 0,
+    "postWins": 2,
     "postLoses": 0,
-    "postPS": 0,
-    "postPA": 0
+    "postPS": 294,
+    "postPA": 179
   },
   {
     "displayName": "StephenLatham58",
@@ -78,10 +78,10 @@
     "regularLoses": 5,
     "regularPS": 1787,
     "regularPA": 1701,
-    "postWins": 0,
-    "postLoses": 0,
-    "postPS": 0,
-    "postPA": 0
+    "postWins": 1,
+    "postLoses": 1,
+    "postPS": 227,
+    "postPA": 218
   },
   {
     "displayName": "ncmather",
@@ -90,10 +90,10 @@
     "regularLoses": 8,
     "regularPS": 1650,
     "regularPA": 1598,
-    "postWins": 0,
-    "postLoses": 0,
-    "postPS": 0,
-    "postPA": 0
+    "postWins": 1,
+    "postLoses": 2,
+    "postPS": 297,
+    "postPA": 335
   },
   {
     "displayName": "TheSundayTicket",
@@ -102,10 +102,10 @@
     "regularLoses": 6,
     "regularPS": 1772,
     "regularPA": 1726,
-    "postWins": 0,
-    "postLoses": 0,
-    "postPS": 0,
-    "postPA": 0
+    "postWins": 1,
+    "postLoses": 1,
+    "postPS": 225,
+    "postPA": 254
   },
   {
     "displayName": "NFLIrish20",
@@ -114,9 +114,9 @@
     "regularLoses": 9,
     "regularPS": 1405,
     "regularPA": 1706,
-    "postWins": 0,
+    "postWins": 2,
     "postLoses": 0,
-    "postPS": 0,
-    "postPA": 0
+    "postPS": 203,
+    "postPA": 131
   }
 ]
