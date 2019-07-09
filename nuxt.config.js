@@ -1,10 +1,8 @@
 const colors = require('vuetify/es5/util/colors').default
 
 module.exports = {
-  // router: {
-  //   base: '/children-of-thanos/',
-  // },
   router: {
+    base: '/children-of-thanos/',
     scrollBehavior(to, from, savedPosition) {
       if (savedPosition) {
         return savedPosition
