@@ -5,27 +5,21 @@
   >
     <v-layout row>
       <v-flex>
-        <h1
-          class="center-text mt-5"
-        >
+        <h1 class="center-text mt-5">
           Well who do we have here?
         </h1>
       </v-flex>
     </v-layout>
     <v-layout row>
       <v-flex>
-        <h3
-          class="center-text"
-        >
+        <h3 class="center-text">
           Looks like you've found a page that doesn't exist.
         </h3>
       </v-flex>
     </v-layout>
     <v-layout row>
       <v-flex>
-        <h3
-          class="center-text"
-        >
+        <h3 class="center-text">
           Question is was it an accident or on purpose?
         </h3>
       </v-flex>
@@ -42,9 +36,7 @@
     </v-layout>
     <v-layout row>
       <v-flex>
-        <h3
-          class="center-text"
-        >
+        <h3 class="center-text">
           It's not too late to
           <nuxt-link to="/">
             turn back
@@ -58,7 +50,7 @@
 
 <script>
 export default {
-  props: ['error'] // eslint-disable-line vue/require-prop-types
+  props: ['error']
 }
 </script>
 

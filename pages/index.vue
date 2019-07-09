@@ -1,9 +1,6 @@
 <template>
   <div>
-    <v-layout
-      row
-      fill-height
-    >
+    <v-layout row fill-height>
       <v-flex>
         <img
           class="hero-image"
@@ -12,16 +9,8 @@
       </v-flex>
     </v-layout>
 
-    <v-layout
-      justify-center
-      row
-      wrap
-    >
-      <v-flex
-        align-self-center
-        xl3
-        sm8
-      >
+    <v-layout justify-center row wrap>
+      <v-flex align-self-center xl3 sm8>
         <v-card
           color="secondary"
           class="ma-3"
@@ -44,11 +33,7 @@
         </v-card>
       </v-flex>
 
-      <v-flex
-        align-self-center
-        xl3
-        sm8
-      >
+      <v-flex align-self-center xl3 sm8>
         <v-card
           color="secondary"
           class="ma-3"
@@ -72,9 +57,7 @@
       </v-flex>
     </v-layout>
 
-    <v-layout
-      wrap
-    >
+    <v-layout wrap>
       <v-flex
         class="mx-auto my-3"
         xl6
