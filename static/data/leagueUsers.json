@@ -87,10 +87,7 @@
     {
       "user_id": "330441519053934592",
       "settings": null,
-      "metadata": {
-        "mention_pn": "on",
-        "allow_pn": "on"
-      },
+      "metadata": { "mention_pn": "on", "allow_pn": "on" },
       "league_id": "320982275422429184",
       "is_owner": null,
       "is_bot": false,
@@ -128,10 +125,7 @@
     {
       "user_id": "333068588799754240",
       "settings": null,
-      "metadata": {
-        "mention_pn": "on",
-        "allow_pn": "on"
-      },
+      "metadata": { "mention_pn": "on", "allow_pn": "on" },
       "league_id": "320982275422429184",
       "is_owner": null,
       "is_bot": false,
@@ -141,10 +135,7 @@
     {
       "user_id": "334050431791554560",
       "settings": null,
-      "metadata": {
-        "mention_pn": "on",
-        "allow_pn": "on"
-      },
+      "metadata": { "mention_pn": "on", "allow_pn": "on" },
       "league_id": "320982275422429184",
       "is_owner": null,
       "is_bot": false,

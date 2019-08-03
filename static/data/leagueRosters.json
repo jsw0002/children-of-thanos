@@ -102,10 +102,7 @@
       ],
       "player_map": null,
       "owner_id": "324660931923550208",
-      "metadata": {
-        "allow_pn_scoring": "on",
-        "allow_pn_news": "off"
-      },
+      "metadata": { "allow_pn_scoring": "on", "allow_pn_news": "off" },
       "league_id": "320982275422429184",
       "co_owners": null
     },
@@ -347,9 +344,7 @@
       ],
       "player_map": null,
       "owner_id": "331647859852070912",
-      "metadata": {
-        "p_nick_4137": "New Le’veon"
-      },
+      "metadata": { "p_nick_4137": "New Le’veon" },
       "league_id": "320982275422429184",
       "co_owners": null
     },
@@ -402,10 +397,7 @@
       ],
       "player_map": null,
       "owner_id": "201807312837410816",
-      "metadata": {
-        "allow_pn_scoring": "on",
-        "allow_pn_news": "on"
-      },
+      "metadata": { "allow_pn_scoring": "on", "allow_pn_news": "on" },
       "league_id": "320982275422429184",
       "co_owners": null
     },

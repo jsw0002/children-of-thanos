@@ -23,7 +23,7 @@
       </league-sub-section>
 
       <league-sub-section title="Commissioner Information">
-        The commissioner for Children Of Thanos for 2018 is Jordan Willis.
+        The commissioner for Children Of Thanos for 2019 is Jordan Willis.
         I can be contacted through league chat, email <a href="mailto:jsw0002@gmail.com">jsw0002@gmail.com</a>, or cell <a href="tel:1-317-496-4739">317.496.4739</a>.
         I do this for the love of football and fantasy.
         I will be responsible for resolving all disputes that are not expressly covered by this constitution.
@@ -92,10 +92,9 @@
 
     <league-section id="league-setup" title="League Setup & Competition">
       <league-sub-section>
-        The Children of Thanos will consist of 10 different teams, broken into two conferences of five teams each.
+        The Children of Thanos will consist of 10 different teams.
         The schedule will be randomly generated, with each team playing every other team at least once in head-to-head match-up.
-        Teams will also play their division opponents an additional time.
-        Since the regular season lasts 14 weeks and this only accounts for 13 the remaining game will be randomly assigned every season.
+        There will be an additional game each week against the median score for that week.
       </league-sub-section>
 
       <league-sub-section title="Playoffs">
@@ -119,7 +118,7 @@
         Owners are expected to attend the draft in person, unless they live too far away.
         The draft order will be determined randomly by the <a target="_blank" href="https://sleeper.app">sleeper.app</a>.
         The draft will be a serpentine order, where the person with the first pick in Round 1 will have the last pick in Round 2 and the first pick in Round 3.
-        When it is the owner's turn to draft, they will have one minute to make their pick.
+        When it is the owner's turn to draft, they will have two minutes to make their pick.
         If they fail to make a pick within the designated amount of time the CPU will auto pick on their behalf.
         This can be undone by the commissioner one time but after that the auto picked player is final.
         This cannot be undone if the next player has already been drafted.
@@ -157,6 +156,13 @@
         <span class="italic">** Note: Tuesday waivers technically translate to Wednesday 12:05am</span>
       </league-sub-sub-section>
 
+      <league-sub-sub-section>
+        <span class="italic">
+          ** Note: We are trying a different waiver rule this year with FAAB being used on Wednesday and all other days serving as a first come first serve.
+          I would like to insert the disclaimer that I believe this is how sleeper handles them with the settings I have selected but we may discover some discrepancies along the way that will have to be dealt with after the season ends unless a unanimous decision is made to make an adjustment.
+        </span>
+      </league-sub-sub-section>
+
       <league-sub-section title="Trades">
         Trading is not only allowed but encouraged in Children of Thanos and may be conducted between any owner.
         Trades may include multiple players from any position.
@@ -190,7 +196,10 @@
       </league-sub-section>
 
       <league-sub-section>
-        There will also be 6 bench spots.
+        There will also be 6 bench spots and one IR spot.
+        Only players with the designation of OUT will be allowed in the IR spot.
+        If you have a player on IR who is no longer IR eligible, you must create room by dropping someone from your bench before you can make further Free Agent or Waiver moves.
+        Your other option is to make a trade if your roster is locked due to this scenario.
         Players may be added or removed from the starting lineup up until the start of the first NFL game.
         On weeks where the NFL has a Thursday game, owners may make changes to their lineups up to the start of the second NFL game, but may not change a player that has already played.
       </league-sub-section>
@@ -299,6 +308,7 @@
             <li>All amendments proposed by league members must receive majority approval prior to the start of the season.</li>
             <li>All amendments proposed during the season will be reviewed at the end of the current season and will not be made applicable to the current season.</li>
             <li>All amendments to the Children of Thanos constitution will be named according to the league member who caused or identified the problem.</li>
+            <li>The league trophy will never be renamed to stroke the ego of a league winner.</li>
           </ol>
         </template>
       </league-sub-section>
