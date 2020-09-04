@@ -21,7 +21,7 @@
     "@nuxtjs/vuetify": "0.5.5",
     "cross-env": "^5.2.0",
     "koa": "^2.6.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "nuxt": "^2.0.0",
     "sass-loader": "^7.1.0"
   },
